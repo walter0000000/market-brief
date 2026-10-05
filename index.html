@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Market Brief</title>
+  <meta name="description" content="Capital markets, governance, investor relations and earnings intelligence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-wrap">
+      <div class="brand">MARKET BRIEF</div>
+      <div class="tagline" data-ja="Capital Markets · Governance · Investor Relations" data-en="Capital Markets · Governance · Investor Relations">Capital Markets · Governance · Investor Relations</div>
+    </div>
+    <div class="controls">
+      <span id="updated" class="updated">Updated —</span>
+      <div class="lang-switch" aria-label="Language switch">
+        <button data-lang="ja" class="active">JP</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero-grid">
+      <div class="panel calendar-panel">
+        <div class="section-head"><div><p class="eyebrow">TODAY</p><h1 data-ja="今日のマーケット・カレンダー" data-en="Today's Market Calendar">今日のマーケット・カレンダー</h1></div><span class="pill">JST</span></div>
+        <div id="calendar" class="timeline"></div>
+      </div>
+      <aside class="panel focus-panel">
+        <p class="eyebrow">AT A GLANCE</p>
+        <h2 data-ja="朝に見るべきこと" data-en="What to watch this morning">朝に見るべきこと</h2>
+        <div id="focus"></div>
+      </aside>
+    </section>
+    <section class="section-block"><div class="section-head"><div><p class="eyebrow">MORNING BRIEF</p><h2 data-ja="重要ニュース" data-en="Key developments">重要ニュース</h2></div></div><div id="brief" class="story-list"></div></section>
+    <section class="two-col section-block">
+      <div><div class="section-head compact"><div><p class="eyebrow">NIKKEI PICKS</p><h2 data-ja="今日の日経" data-en="Today's Nikkei">今日の日経</h2></div></div><div id="nikkei" class="compact-list"></div></div>
+      <div><div class="section-head compact"><div><p class="eyebrow">EARNINGS</p><h2 data-ja="注目決算" data-en="Earnings to watch">注目決算</h2></div></div><div id="earnings" class="compact-list"></div></div>
+    </section>
+    <section class="two-col section-block">
+      <div><div class="section-head compact"><div><p class="eyebrow">IR & GOVERNANCE</p><h2 data-ja="IR・ガバナンス監視" data-en="IR & governance watch">IR・ガバナンス監視</h2></div></div><div id="governance" class="compact-list"></div></div>
+      <div><div class="section-head compact"><div><p class="eyebrow">PROXY / AGM</p><h2 data-ja="株主総会・議決権" data-en="Proxy & AGM watch">株主総会・議決権</h2></div></div><div id="proxy" class="compact-list"></div></div>
+    </section>
+    <section class="section-block learn-card"><div class="section-head"><div><p class="eyebrow">LEARN · 5 MIN</p><h2 data-ja="今日のIR実務" data-en="Today's IR concept">今日のIR実務</h2></div></div><div id="learn"></div></section>
+    <section class="section-block"><div class="section-head compact"><div><p class="eyebrow">PRIMARY SOURCES</p><h2 data-ja="今日読む一次資料" data-en="Primary sources worth reading">今日読む一次資料</h2></div></div><div id="sources" class="source-grid"></div></section>
+  </main>
+  <footer><span data-ja="情報は公開情報に基づく要約です。投資助言ではありません。" data-en="Summaries are based on public information and are not investment advice.">情報は公開情報に基づく要約です。投資助言ではありません。</span></footer>
+  <script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>
