@@ -1,12 +1,18 @@
 window.MARKET_DATA={
-updatedAt:"2026-11-08 08:00 JST",
+updatedAt:"2026-11-11 (latest verified filings: Nov 10) JST",
 calendar:[
+{time:"11/11",ja:"最新確認：11月10日の大量保有・TOB情報",en:"Latest verified: Nov 10 ownership and TOB filings",metaJa:"11月11日市場終値は未検証。古い指数値を当日値として扱わない",metaEn:"Nov 11 market close unverified; prior index levels are historical",url:"https://maonline.jp/kabuhoyu"},
+
 {time:"11/08",ja:"日曜日・東証休場",en:"Sunday | Tokyo market closed",metaJa:"11月6日までの公表情報を振り返る",metaEn:"Review disclosures through Nov 6",url:"https://www.jpx.co.jp/"},
 {time:"11/06",ja:"東京市場：日経平均57,434.77円（-5.96%）",en:"Tokyo close: Nikkei 57,434.77 (-5.96%)",metaJa:"日経平均公式終値｜前日比-3,643.13円",metaEn:"Official Nikkei close | -3,643.13 points",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261106&idx=nk225"},
 {time:"11/06",ja:"東証プライム売買代金 約12.48兆円",en:"TSE Prime turnover approx. ¥12.48tn",metaJa:"株探の大引け市況｜概算",metaEn:"Kabutan closing report | estimate",url:"https://s.minkabu.jp/news/4653524"},
 {time:"11/09",ja:"次営業日の決算・適時開示を確認",en:"Review next trading day's earnings and disclosures",metaJa:"JPX予定表・TDnetで随時確認",metaEn:"Check JPX schedule and TDnet",url:"https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"}
 ],
 focus:[
+{ja:"11/10：カナメ・キャピタル、バリューコマース14.01%へ買い増し",en:"Nov 10: Kaname Capital raises ValueCommerce stake to 14.01%"},
+{ja:"11/10：シティインデックス関連、セントラル・リート投資法人5.11%を新規報告",en:"Nov 10: City Index-related holders report 5.11% in Central REIT"},
+{ja:"11/10：大黒屋ホールディングスのMBO・TOB公表",en:"Nov 10: Daikokuya Holdings announces MBO/TOB"},
+
 {ja:"11月8日（日）は東証休場。最新の大量保有提出は11月6日分を確認",en:"TSE closed Sunday Nov 8; latest reviewed ownership filings are from Nov 6"},
 {ja:"3DがJ.フロント13.84%、Oasisが芝浦機械13.68%へ買い増し",en:"3D raises J. Front to 13.84%; Oasis raises Shibaura Machine to 13.68%"},
 {ja:"日経平均-5.96%、構成225銘柄中222銘柄が下落",en:"Nikkei -5.96%; 222 of 225 constituents declined"},
@@ -14,6 +20,10 @@ focus:[
 {ja:"IR/SR：株価急落時の株主構成・対話方針・資本政策を再点検",en:"IR/SR: reassess shareholder base, engagement and capital policy"}
 ],
 brief:[
+{priority:"S",titleJa:"カナメ・キャピタル、バリューコマース14.01%へ",titleEn:"Kaname Capital raises ValueCommerce stake to 14.01%",summaryJa:"11月10日提出の変更報告書を基に、保有比率は12.99%から14.01%へ1.02ポイント上昇。",summaryEn:"A Nov 10 change filing reports a rise from 12.99% to 14.01%, up 1.02 percentage points.",whyJa:"SRでは保有目的、重要提案行為等、追加取得の推移を原本で確認。比率のみで買収意図は断定できない。",whyEn:"Review the original filing for purpose, material proposals and accumulation; percentage alone does not prove takeover intent.",sourceJa:"二次情報｜M&A Online（EDINET提出情報）",sourceEn:"Secondary | M&A Online (EDINET-based)",publisher:"M&A Online",time:"11/10",url:"https://maonline.jp/kabuhoyu"},
+{priority:"S",titleJa:"シティインデックス関連、セントラル・リート5.11%を報告",titleEn:"City Index-related holders report 5.11% of Central REIT",summaryJa:"11月10日、シティインデックスイレブンス等の共同保有による新規大量保有報告が掲載された。保有比率は5.11%。",summaryEn:"A new Nov 10 large-shareholding filing reports 5.11% held by City Index-related entities.",whyJa:"REITの投資口保有構造、投資主提案・運用会社との対話を確認する入口となる。",whyEn:"A signal to review REIT unitholder structure, governance and engagement with the asset manager.",sourceJa:"二次情報｜M&A Online（EDINET提出情報）",sourceEn:"Secondary | M&A Online (EDINET-based)",publisher:"M&A Online",time:"11/10",url:"https://maonline.jp/kabuhoyu"},
+{priority:"A",titleJa:"大黒屋ホールディングス、MBO・TOBを公表",titleEn:"Daikokuya Holdings announces management buyout tender offer",summaryJa:"11月10日、大黒屋ホールディングスのMBOに伴う公開買付け開始が報じられた。買付価格・期間・応募条件は公式開示で要確認。",summaryEn:"A management buyout tender offer for Daikokuya Holdings was reported on Nov 10. Price, period and conditions require verification in official disclosures.",whyJa:"少数株主保護、特別委員会、公正性担保措置、株主への説明が重要な検討事項。",whyEn:"Key questions include minority shareholder protection, special committee review, fairness safeguards and investor communication.",sourceJa:"二次情報｜M&A Online",sourceEn:"Secondary | M&A Online",publisher:"M&A Online",time:"11/10",url:"https://maonline.jp/kabuhoyu"},
+
 {priority:"S",titleJa:"3D、J.フロント リテイリング保有比率13.84%に",titleEn:"3D raises J. Front Retailing stake to 13.84%",summaryJa:"11月6日提出の変更報告で3D Investment Partnersの保有比率は13.84%（前回比+1.11ポイント）。EDINET提出情報を集計するM&A Onlineで確認。",summaryEn:"A Nov 6 change filing shows 3D Investment Partners at 13.84%, up 1.11 percentage points, as reported by EDINET-based M&A Online.",whyJa:"株主対話・重要提案行為の記載と追加取得動向を確認。比率だけで買収目的を断定しない。",whyEn:"Monitor stated engagement and proposal intentions; ownership alone does not prove takeover intent.",sourceJa:"EDINET提出ベースの二次集計",sourceEn:"Secondary EDINET-based compilation",publisher:"M&A Online",time:"11/06",url:"https://www.follow-money.com/d/2026-11-06"},
 {priority:"S",titleJa:"Oasis、芝浦機械の保有比率13.68%へ",titleEn:"Oasis increases Shibaura Machine stake to 13.68%",summaryJa:"11月6日提出の変更報告でOasis Managementの保有比率は13.68%（+1.41ポイント）。",summaryEn:"A Nov 6 filing shows Oasis Management at 13.68%, up 1.41 percentage points.",whyJa:"保有目的、過去のエンゲージメント、経営陣の対応と資本政策を時系列で確認する。",whyEn:"Review filing purpose, engagement history, management response and capital policy.",sourceJa:"EDINET提出ベースの二次集計",sourceEn:"Secondary EDINET-based compilation",publisher:"M&A Online",time:"11/06",url:"https://teapawt.net/stpedia"},
 {priority:"A",titleJa:"カナメ・キャピタル、バリューコマース11.97%へ",titleEn:"Kaname Capital raises ValueCommerce stake to 11.97%",summaryJa:"11月6日の変更報告で保有比率は11.97%（+1.13ポイント）。",summaryEn:"A Nov 6 change filing reports a stake of 11.97%, up 1.13 percentage points.",whyJa:"株主構成変化と対話・議決権対応の優先順位を確認する。",whyEn:"Assess ownership changes and investor-engagement priorities.",sourceJa:"EDINET提出ベースの二次集計",sourceEn:"Secondary EDINET-based compilation",publisher:"M&A Online",time:"11/06",url:"https://www.follow-money.com/d/2026-11-06"},
@@ -29,6 +39,9 @@ earnings:[
 {titleJa:"JPX：決算発表予定日",titleEn:"JPX: earnings announcement calendar",descJa:"11月9日以降の予定は公式一覧で確認。未確認の個別決算を掲載しない。",descEn:"Check the official schedule for Nov 9 onward; no unverified company earnings are asserted.",metaJa:"一次情報｜JPX",metaEn:"Primary | JPX",url:"https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"}
 ],
 governance:[
+{titleJa:"11/10 カナメ・キャピタル × バリューコマース 14.01%",titleEn:"Nov 10 Kaname × ValueCommerce 14.01%",descJa:"変更報告書の保有目的・共同保有・重要提案行為等を確認。",descEn:"Review filing purpose, joint holdings and material proposals.",metaJa:"M&A Online｜11/10",metaEn:"M&A Online | Nov 10",url:"https://maonline.jp/kabuhoyu"},
+{titleJa:"11/10 シティインデックス関連 × セントラル・リート 5.11%",titleEn:"Nov 10 City Index-related × Central REIT 5.11%",descJa:"新規大量保有報告。REIT投資口の所有とガバナンスを継続監視。",descEn:"New large holding; monitor REIT unitholder governance.",metaJa:"M&A Online｜11/10",metaEn:"M&A Online | Nov 10",url:"https://maonline.jp/kabuhoyu"},
+
 {titleJa:"3D × J.フロント｜13.84%",titleEn:"3D × J. Front | 13.84%",descJa:"11月6日変更報告、+1.11pt。重要提案行為等の記載を原文で確認。",descEn:"Nov 6 amendment, +1.11pp. Review the original filing for material proposals.",metaJa:"EDINET提出ベース｜11/06",metaEn:"EDINET-based | Nov 6",url:"https://www.follow-money.com/d/2026-11-06"},
 {titleJa:"Oasis × 芝浦機械｜13.68%",titleEn:"Oasis × Shibaura Machine | 13.68%",descJa:"11月6日変更報告、+1.41pt。",descEn:"Nov 6 amendment, +1.41pp.",metaJa:"EDINET提出ベース｜11/06",metaEn:"EDINET-based | Nov 6",url:"https://teapawt.net/stpedia"},
 {titleJa:"急落局面のIR・SR対応",titleEn:"IR/SR response to market dislocation",descJa:"市場要因と企業要因を分け、主要株主の動向と投資家からの質問を整理する（実務分析）。",descEn:"Separate systemic from company-specific effects and prepare investor Q&A (analytical note).",metaJa:"実務分析｜11/06",metaEn:"Practice note | Nov 6",url:"https://www.jpx.co.jp/"},
