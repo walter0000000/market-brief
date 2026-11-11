@@ -1,6 +1,7 @@
 window.MARKET_DATA={
-updatedAt:"2026-11-11 (latest verified filings: Nov 10) JST",
+updatedAt:"2026-11-12 08:05 JST (latest verified market close: Nov 11)",
 calendar:[
+{time:"11/11",ja:"日経平均61,248.59円（+789.01円、+1.31%）",en:"Nikkei closes at 61,248.59 (+789.01, +1.31%)",metaJa:"日経平均プロフィル公式ヒストリカルデータ｜11月11日終値",metaEn:"Official Nikkei historical data | Nov 11 close",url:"https://indexes.nikkei.co.jp/nkave/archives/data/"},
 {time:"11/11",ja:"最新確認：11月10日の大量保有・TOB情報",en:"Latest verified: Nov 10 ownership and TOB filings",metaJa:"11月11日市場終値は未検証。古い指数値を当日値として扱わない",metaEn:"Nov 11 market close unverified; prior index levels are historical",url:"https://maonline.jp/kabuhoyu"},
 
 {time:"11/08",ja:"日曜日・東証休場",en:"Sunday | Tokyo market closed",metaJa:"11月6日までの公表情報を振り返る",metaEn:"Review disclosures through Nov 6",url:"https://www.jpx.co.jp/"},
@@ -9,6 +10,7 @@ calendar:[
 {time:"11/09",ja:"次営業日の決算・適時開示を確認",en:"Review next trading day's earnings and disclosures",metaJa:"JPX予定表・TDnetで随時確認",metaEn:"Check JPX schedule and TDnet",url:"https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"}
 ],
 focus:[
+{ja:"11/11：日経平均は61,248.59円へ上昇。11/6急落後の戻りと企業別材料を分けて評価",en:"Nov 11: Nikkei recovers to 61,248.59; separate rebound from issuer-specific drivers"},
 {ja:"11/10：カナメ・キャピタル、バリューコマース14.01%へ買い増し",en:"Nov 10: Kaname Capital raises ValueCommerce stake to 14.01%"},
 {ja:"11/10：シティインデックス関連、セントラル・リート投資法人5.11%を新規報告",en:"Nov 10: City Index-related holders report 5.11% in Central REIT"},
 {ja:"11/10：大黒屋ホールディングスのMBO・TOB公表",en:"Nov 10: Daikokuya Holdings announces MBO/TOB"},
@@ -20,6 +22,7 @@ focus:[
 {ja:"IR/SR：株価急落時の株主構成・対話方針・資本政策を再点検",en:"IR/SR: reassess shareholder base, engagement and capital policy"}
 ],
 brief:[
+{priority:"S",titleJa:"11月11日の日経平均、61,248.59円（+1.31%）",titleEn:"Nikkei closes Nov 11 at 61,248.59 (+1.31%)",summaryJa:"日経平均プロフィルの公式日次データによると、11月11日終値は61,248.59円。前日60,459.58円から789.01円（1.31%）上昇。11月6日終値57,434.77円からは3,813.82円回復した。",summaryEn:"Official Nikkei data show a Nov 11 close of 61,248.59, up 789.01 (+1.31%) from Nov 10 at 60,459.58; 3,813.82 above Nov 6.",whyJa:"IR/SRでは市場全体の反発と企業固有の決算・株主需給を分離。大量保有報告の直近確認分は11月10日で、11月11日分の個別提出は未検証。",whyEn:"For IR/SR, distinguish market recovery from earnings and ownership changes. Latest individually reviewed holdings filings remain Nov 10; Nov 11 filings unverified.",sourceJa:"一次情報｜日経平均プロフィル（11/11終値）",sourceEn:"Primary | Nikkei Indexes (Nov 11 close)",publisher:"Nikkei Indexes",time:"11/11 close",url:"https://indexes.nikkei.co.jp/nkave/archives/data/"},
 {priority:"S",titleJa:"カナメ・キャピタル、バリューコマース14.01%へ",titleEn:"Kaname Capital raises ValueCommerce stake to 14.01%",summaryJa:"11月10日提出の変更報告書を基に、保有比率は12.99%から14.01%へ1.02ポイント上昇。",summaryEn:"A Nov 10 change filing reports a rise from 12.99% to 14.01%, up 1.02 percentage points.",whyJa:"SRでは保有目的、重要提案行為等、追加取得の推移を原本で確認。比率のみで買収意図は断定できない。",whyEn:"Review the original filing for purpose, material proposals and accumulation; percentage alone does not prove takeover intent.",sourceJa:"二次情報｜M&A Online（EDINET提出情報）",sourceEn:"Secondary | M&A Online (EDINET-based)",publisher:"M&A Online",time:"11/10",url:"https://maonline.jp/kabuhoyu"},
 {priority:"S",titleJa:"シティインデックス関連、セントラル・リート5.11%を報告",titleEn:"City Index-related holders report 5.11% of Central REIT",summaryJa:"11月10日、シティインデックスイレブンス等の共同保有による新規大量保有報告が掲載された。保有比率は5.11%。",summaryEn:"A new Nov 10 large-shareholding filing reports 5.11% held by City Index-related entities.",whyJa:"REITの投資口保有構造、投資主提案・運用会社との対話を確認する入口となる。",whyEn:"A signal to review REIT unitholder structure, governance and engagement with the asset manager.",sourceJa:"二次情報｜M&A Online（EDINET提出情報）",sourceEn:"Secondary | M&A Online (EDINET-based)",publisher:"M&A Online",time:"11/10",url:"https://maonline.jp/kabuhoyu"},
 {priority:"A",titleJa:"大黒屋ホールディングス、MBO・TOBを公表",titleEn:"Daikokuya Holdings announces management buyout tender offer",summaryJa:"11月10日、大黒屋ホールディングスのMBOに伴う公開買付け開始が報じられた。買付価格・期間・応募条件は公式開示で要確認。",summaryEn:"A management buyout tender offer for Daikokuya Holdings was reported on Nov 10. Price, period and conditions require verification in official disclosures.",whyJa:"少数株主保護、特別委員会、公正性担保措置、株主への説明が重要な検討事項。",whyEn:"Key questions include minority shareholder protection, special committee review, fairness safeguards and investor communication.",sourceJa:"二次情報｜M&A Online",sourceEn:"Secondary | M&A Online",publisher:"M&A Online",time:"11/10",url:"https://maonline.jp/kabuhoyu"},
@@ -32,6 +35,7 @@ brief:[
 {priority:"A",titleJa:"TOPIXも5.90%下落、全面安",titleEn:"TOPIX also falls 5.90% in broad selloff",summaryJa:"TOPIXは3,707.99、前日比-232.40ポイント（-5.90%）。大型ハイテク株に限らない幅広い下落となった。",summaryEn:"TOPIX finished at 3,707.99, down 232.40 (-5.90%), indicating broad market weakness beyond large-cap tech.",whyJa:"株主構成分析では海外投資家の売却、パッシブ資金、個別企業の需給を分けて確認したい。",whyEn:"In ownership analysis, distinguish foreign flows, passive rebalancing and issuer-specific selling.",sourceJa:"二次情報｜読売新聞",sourceEn:"Secondary | Yomiuri",publisher:"Yomiuri",time:"11/06 15:41",url:"https://news.livedoor.com/article/detail/32749146/"}
 ],
 nikkei:[
+{titleJa:"11月11日 日経平均公式終値61,248.59円",titleEn:"Nov 11 official Nikkei close: 61,248.59",descJa:"前日比+789.01円（+1.31%）。11月9日58,775.50円、10日60,459.58円から続伸。",descEn:"Up 789.01 (+1.31%); follows Nov 9 at 58,775.50 and Nov 10 at 60,459.58.",metaJa:"一次情報｜11/11",metaEn:"Primary | Nov 11",url:"https://indexes.nikkei.co.jp/nkave/archives/data/"},
 {titleJa:"11月6日の日経平均：公式日次サマリー",titleEn:"Nov 6 Nikkei official daily summary",descJa:"終値57,434.77円、-5.96%。指数構成銘柄の騰落も確認できる。",descEn:"Official close 57,434.77, -5.96%, with constituent breadth.",metaJa:"一次情報｜11/06",metaEn:"Primary | Nov 6",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261106&idx=nk225"},
 {titleJa:"株探：11月6日の大引け概況",titleEn:"Kabutan: Nov 6 market close",descJa:"半導体株安、売買代金、下落寄与銘柄を整理。",descEn:"Chip selloff, turnover and major index detractors.",metaJa:"二次情報｜11/06",metaEn:"Secondary | Nov 6",url:"https://s.minkabu.jp/news/4653524"}
 ],
