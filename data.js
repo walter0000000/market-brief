@@ -1,6 +1,7 @@
 window.MARKET_DATA={
-updatedAt:"2026-11-12 08:05 JST (latest verified market close: Nov 11)",
+updatedAt:"2026-11-13 08:08 JST (latest verified market close: Nov 12)",
 calendar:[
+{time:"11/12",ja:"日経平均60,819.36円（-429.23円、-0.70%）",en:"Nikkei 60,819.36 (-429.23, -0.70%)",metaJa:"FT・Yahoo Financeヒストリカルデータ｜11月12日終値",metaEn:"FT / Yahoo Finance historical data | Nov 12 close",url:"https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK"},
 {time:"11/11",ja:"日経平均61,248.59円（+789.01円、+1.31%）",en:"Nikkei closes at 61,248.59 (+789.01, +1.31%)",metaJa:"日経平均プロフィル公式ヒストリカルデータ｜11月11日終値",metaEn:"Official Nikkei historical data | Nov 11 close",url:"https://indexes.nikkei.co.jp/nkave/archives/data/"},
 {time:"11/11",ja:"最新確認：11月10日の大量保有・TOB情報",en:"Latest verified: Nov 10 ownership and TOB filings",metaJa:"11月11日市場終値は未検証。古い指数値を当日値として扱わない",metaEn:"Nov 11 market close unverified; prior index levels are historical",url:"https://maonline.jp/kabuhoyu"},
 
@@ -10,6 +11,7 @@ calendar:[
 {time:"11/09",ja:"次営業日の決算・適時開示を確認",en:"Review next trading day's earnings and disclosures",metaJa:"JPX予定表・TDnetで随時確認",metaEn:"Check JPX schedule and TDnet",url:"https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"}
 ],
 focus:[
+{ja:"11/12：日経平均60,819.36円（-0.70%）。11/13朝時点では前日終値を使用",en:"Nov 12: Nikkei 60,819.36 (-0.70%); prior-day close as of Nov 13 morning"},
 {ja:"11/11：日経平均は61,248.59円へ上昇。11/6急落後の戻りと企業別材料を分けて評価",en:"Nov 11: Nikkei recovers to 61,248.59; separate rebound from issuer-specific drivers"},
 {ja:"11/10：カナメ・キャピタル、バリューコマース14.01%へ買い増し",en:"Nov 10: Kaname Capital raises ValueCommerce stake to 14.01%"},
 {ja:"11/10：シティインデックス関連、セントラル・リート投資法人5.11%を新規報告",en:"Nov 10: City Index-related holders report 5.11% in Central REIT"},
@@ -22,6 +24,8 @@ focus:[
 {ja:"IR/SR：株価急落時の株主構成・対話方針・資本政策を再点検",en:"IR/SR: reassess shareholder base, engagement and capital policy"}
 ],
 brief:[
+{priority:"S",titleJa:"11月12日の日経平均は60,819.36円（-0.70%）",titleEn:"Nikkei closes Nov 12 at 60,819.36 (-0.70%)",summaryJa:"11月12日の終値は60,819.36円、前日比429.23円安（-0.70%）。11月11日の61,248.59円から反落。Financial TimesおよびYahoo Financeのヒストリカルデータで照合。",summaryEn:"The Nikkei closed Nov 12 at 60,819.36, down 429.23 (-0.70%) from Nov 11. Cross-checked against FT and Yahoo Finance historical data.",whyJa:"IR/SRでは指数の反落と個別決算・株主構成変化を切り分ける。11月13日朝時点で当日の終値は未確定。",whyEn:"IR/SR should distinguish index weakness from company-specific earnings and shareholder developments. Nov 13 close is not yet available.",sourceJa:"二次情報｜Financial Times / Yahoo Finance",sourceEn:"Secondary | Financial Times / Yahoo Finance",publisher:"Financial Times",time:"11/12 close",url:"https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK"},
+
 {priority:"S",titleJa:"11月11日の日経平均、61,248.59円（+1.31%）",titleEn:"Nikkei closes Nov 11 at 61,248.59 (+1.31%)",summaryJa:"日経平均プロフィルの公式日次データによると、11月11日終値は61,248.59円。前日60,459.58円から789.01円（1.31%）上昇。11月6日終値57,434.77円からは3,813.82円回復した。",summaryEn:"Official Nikkei data show a Nov 11 close of 61,248.59, up 789.01 (+1.31%) from Nov 10 at 60,459.58; 3,813.82 above Nov 6.",whyJa:"IR/SRでは市場全体の反発と企業固有の決算・株主需給を分離。大量保有報告の直近確認分は11月10日で、11月11日分の個別提出は未検証。",whyEn:"For IR/SR, distinguish market recovery from earnings and ownership changes. Latest individually reviewed holdings filings remain Nov 10; Nov 11 filings unverified.",sourceJa:"一次情報｜日経平均プロフィル（11/11終値）",sourceEn:"Primary | Nikkei Indexes (Nov 11 close)",publisher:"Nikkei Indexes",time:"11/11 close",url:"https://indexes.nikkei.co.jp/nkave/archives/data/"},
 {priority:"S",titleJa:"カナメ・キャピタル、バリューコマース14.01%へ",titleEn:"Kaname Capital raises ValueCommerce stake to 14.01%",summaryJa:"11月10日提出の変更報告書を基に、保有比率は12.99%から14.01%へ1.02ポイント上昇。",summaryEn:"A Nov 10 change filing reports a rise from 12.99% to 14.01%, up 1.02 percentage points.",whyJa:"SRでは保有目的、重要提案行為等、追加取得の推移を原本で確認。比率のみで買収意図は断定できない。",whyEn:"Review the original filing for purpose, material proposals and accumulation; percentage alone does not prove takeover intent.",sourceJa:"二次情報｜M&A Online（EDINET提出情報）",sourceEn:"Secondary | M&A Online (EDINET-based)",publisher:"M&A Online",time:"11/10",url:"https://maonline.jp/kabuhoyu"},
 {priority:"S",titleJa:"シティインデックス関連、セントラル・リート5.11%を報告",titleEn:"City Index-related holders report 5.11% of Central REIT",summaryJa:"11月10日、シティインデックスイレブンス等の共同保有による新規大量保有報告が掲載された。保有比率は5.11%。",summaryEn:"A new Nov 10 large-shareholding filing reports 5.11% held by City Index-related entities.",whyJa:"REITの投資口保有構造、投資主提案・運用会社との対話を確認する入口となる。",whyEn:"A signal to review REIT unitholder structure, governance and engagement with the asset manager.",sourceJa:"二次情報｜M&A Online（EDINET提出情報）",sourceEn:"Secondary | M&A Online (EDINET-based)",publisher:"M&A Online",time:"11/10",url:"https://maonline.jp/kabuhoyu"},
@@ -35,6 +39,7 @@ brief:[
 {priority:"A",titleJa:"TOPIXも5.90%下落、全面安",titleEn:"TOPIX also falls 5.90% in broad selloff",summaryJa:"TOPIXは3,707.99、前日比-232.40ポイント（-5.90%）。大型ハイテク株に限らない幅広い下落となった。",summaryEn:"TOPIX finished at 3,707.99, down 232.40 (-5.90%), indicating broad market weakness beyond large-cap tech.",whyJa:"株主構成分析では海外投資家の売却、パッシブ資金、個別企業の需給を分けて確認したい。",whyEn:"In ownership analysis, distinguish foreign flows, passive rebalancing and issuer-specific selling.",sourceJa:"二次情報｜読売新聞",sourceEn:"Secondary | Yomiuri",publisher:"Yomiuri",time:"11/06 15:41",url:"https://news.livedoor.com/article/detail/32749146/"}
 ],
 nikkei:[
+{titleJa:"11月12日の日経平均：60,819.36円",titleEn:"Nov 12 Nikkei close: 60,819.36",descJa:"前日比-429.23円（-0.70%）。FTの日次ヒストリカルデータで確認。",descEn:"Down 429.23 (-0.70%) from Nov 11, per FT historical data.",metaJa:"二次情報｜11/12",metaEn:"Secondary | Nov 12",url:"https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK"},
 {titleJa:"11月11日 日経平均公式終値61,248.59円",titleEn:"Nov 11 official Nikkei close: 61,248.59",descJa:"前日比+789.01円（+1.31%）。11月9日58,775.50円、10日60,459.58円から続伸。",descEn:"Up 789.01 (+1.31%); follows Nov 9 at 58,775.50 and Nov 10 at 60,459.58.",metaJa:"一次情報｜11/11",metaEn:"Primary | Nov 11",url:"https://indexes.nikkei.co.jp/nkave/archives/data/"},
 {titleJa:"11月6日の日経平均：公式日次サマリー",titleEn:"Nov 6 Nikkei official daily summary",descJa:"終値57,434.77円、-5.96%。指数構成銘柄の騰落も確認できる。",descEn:"Official close 57,434.77, -5.96%, with constituent breadth.",metaJa:"一次情報｜11/06",metaEn:"Primary | Nov 6",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261106&idx=nk225"},
 {titleJa:"株探：11月6日の大引け概況",titleEn:"Kabutan: Nov 6 market close",descJa:"半導体株安、売買代金、下落寄与銘柄を整理。",descEn:"Chip selloff, turnover and major index detractors.",metaJa:"二次情報｜11/06",metaEn:"Secondary | Nov 6",url:"https://s.minkabu.jp/news/4653524"}
@@ -43,6 +48,7 @@ earnings:[
 {titleJa:"JPX：決算発表予定日",titleEn:"JPX: earnings announcement calendar",descJa:"11月9日以降の予定は公式一覧で確認。未確認の個別決算を掲載しない。",descEn:"Check the official schedule for Nov 9 onward; no unverified company earnings are asserted.",metaJa:"一次情報｜JPX",metaEn:"Primary | JPX",url:"https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"}
 ],
 governance:[
+{titleJa:"11/12 EDINET大量保有提出：53件（一覧）",titleEn:"Nov 12: 53 large-shareholding submissions listed",descJa:"機関ウォッチの11月12日提出一覧。個別案件はEDINET原本で保有目的・共同保有者・提出日時を確認する。",descEn:"Secondary listing of 53 Nov 12 filings. Verify original EDINET documents before drawing issuer-specific conclusions.",metaJa:"二次情報｜機関ウォッチ 11/12",metaEn:"Secondary | Kikan Watch Nov 12",url:"https://kikan.watch/large-holdings/"},
 {titleJa:"11/10 カナメ・キャピタル × バリューコマース 14.01%",titleEn:"Nov 10 Kaname × ValueCommerce 14.01%",descJa:"変更報告書の保有目的・共同保有・重要提案行為等を確認。",descEn:"Review filing purpose, joint holdings and material proposals.",metaJa:"M&A Online｜11/10",metaEn:"M&A Online | Nov 10",url:"https://maonline.jp/kabuhoyu"},
 {titleJa:"11/10 シティインデックス関連 × セントラル・リート 5.11%",titleEn:"Nov 10 City Index-related × Central REIT 5.11%",descJa:"新規大量保有報告。REIT投資口の所有とガバナンスを継続監視。",descEn:"New large holding; monitor REIT unitholder governance.",metaJa:"M&A Online｜11/10",metaEn:"M&A Online | Nov 10",url:"https://maonline.jp/kabuhoyu"},
 
