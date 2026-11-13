@@ -1,6 +1,8 @@
 window.MARKET_DATA={
-updatedAt:"2026-11-13 08:08 JST (latest verified market close: Nov 12)",
+updatedAt:"2026-11-14 08:20 JST (latest verified market close: Nov 13)",
 calendar:[
+{time:"11/13",ja:"日経平均61,142.35円（+322.99円、+0.53%）",en:"Nikkei 61,142.35 (+322.99, +0.53%)",metaJa:"一次情報｜日経平均プロフィル 11月13日終値",metaEn:"Primary | Nikkei Indexes Nov 13 close",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261113&idx=nk225"},
+
 {time:"11/12",ja:"日経平均60,819.36円（-429.23円、-0.70%）",en:"Nikkei 60,819.36 (-429.23, -0.70%)",metaJa:"FT・Yahoo Financeヒストリカルデータ｜11月12日終値",metaEn:"FT / Yahoo Finance historical data | Nov 12 close",url:"https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK"},
 {time:"11/11",ja:"日経平均61,248.59円（+789.01円、+1.31%）",en:"Nikkei closes at 61,248.59 (+789.01, +1.31%)",metaJa:"日経平均プロフィル公式ヒストリカルデータ｜11月11日終値",metaEn:"Official Nikkei historical data | Nov 11 close",url:"https://indexes.nikkei.co.jp/nkave/archives/data/"},
 {time:"11/11",ja:"最新確認：11月10日の大量保有・TOB情報",en:"Latest verified: Nov 10 ownership and TOB filings",metaJa:"11月11日市場終値は未検証。古い指数値を当日値として扱わない",metaEn:"Nov 11 market close unverified; prior index levels are historical",url:"https://maonline.jp/kabuhoyu"},
@@ -11,6 +13,9 @@ calendar:[
 {time:"11/09",ja:"次営業日の決算・適時開示を確認",en:"Review next trading day's earnings and disclosures",metaJa:"JPX予定表・TDnetで随時確認",metaEn:"Check JPX schedule and TDnet",url:"https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"}
 ],
 focus:[
+{ja:"11/13：日経平均61,142.35円（+0.53%）。週末11/14は東証休場",en:"Nov 13: Nikkei 61,142.35 (+0.53%); TSE closed Saturday Nov 14"},
+{ja:"IR/SR：指数寄与度はファストリ+156.15円、アドテスト+134.84円。個社要因と指数上昇を分離",en:"IR/SR: Fast Retailing contributed +156.15 index points and Advantest +134.84; separate stock-specific from index moves"},
+
 {ja:"11/12：日経平均60,819.36円（-0.70%）。11/13朝時点では前日終値を使用",en:"Nov 12: Nikkei 60,819.36 (-0.70%); prior-day close as of Nov 13 morning"},
 {ja:"11/11：日経平均は61,248.59円へ上昇。11/6急落後の戻りと企業別材料を分けて評価",en:"Nov 11: Nikkei recovers to 61,248.59; separate rebound from issuer-specific drivers"},
 {ja:"11/10：カナメ・キャピタル、バリューコマース14.01%へ買い増し",en:"Nov 10: Kaname Capital raises ValueCommerce stake to 14.01%"},
@@ -24,6 +29,8 @@ focus:[
 {ja:"IR/SR：株価急落時の株主構成・対話方針・資本政策を再点検",en:"IR/SR: reassess shareholder base, engagement and capital policy"}
 ],
 brief:[
+{priority:"S",titleJa:"11月13日の日経平均、61,142.35円（+0.53%）",titleEn:"Nikkei closes Nov 13 at 61,142.35 (+0.53%)",summaryJa:"日経平均プロフィル公式日次サマリーによると、11月13日終値は61,142.35円、前日比322.99円高（+0.53%）。225銘柄中132銘柄が上昇、91銘柄が下落、2銘柄が変わらず。",summaryEn:"Official Nikkei data show a Nov 13 close of 61,142.35, up 322.99 (+0.53%); 132 constituents advanced, 91 declined and two were unchanged.",whyJa:"IR/SRでは指数の反発と個別企業の決算・資本政策・株主構成変化を切り分ける。11月14日は土曜日で東証休場。",whyEn:"For IR/SR, distinguish benchmark gains from issuer-specific earnings, capital policy and ownership changes. TSE is closed Saturday Nov 14.",sourceJa:"一次情報｜日経平均プロフィル",sourceEn:"Primary | Nikkei Indexes",publisher:"Nikkei Indexes",time:"11/13 close",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261113&idx=nk225"},
+
 {priority:"S",titleJa:"11月12日の日経平均は60,819.36円（-0.70%）",titleEn:"Nikkei closes Nov 12 at 60,819.36 (-0.70%)",summaryJa:"11月12日の終値は60,819.36円、前日比429.23円安（-0.70%）。11月11日の61,248.59円から反落。Financial TimesおよびYahoo Financeのヒストリカルデータで照合。",summaryEn:"The Nikkei closed Nov 12 at 60,819.36, down 429.23 (-0.70%) from Nov 11. Cross-checked against FT and Yahoo Finance historical data.",whyJa:"IR/SRでは指数の反落と個別決算・株主構成変化を切り分ける。11月13日朝時点で当日の終値は未確定。",whyEn:"IR/SR should distinguish index weakness from company-specific earnings and shareholder developments. Nov 13 close is not yet available.",sourceJa:"二次情報｜Financial Times / Yahoo Finance",sourceEn:"Secondary | Financial Times / Yahoo Finance",publisher:"Financial Times",time:"11/12 close",url:"https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK"},
 
 {priority:"S",titleJa:"11月11日の日経平均、61,248.59円（+1.31%）",titleEn:"Nikkei closes Nov 11 at 61,248.59 (+1.31%)",summaryJa:"日経平均プロフィルの公式日次データによると、11月11日終値は61,248.59円。前日60,459.58円から789.01円（1.31%）上昇。11月6日終値57,434.77円からは3,813.82円回復した。",summaryEn:"Official Nikkei data show a Nov 11 close of 61,248.59, up 789.01 (+1.31%) from Nov 10 at 60,459.58; 3,813.82 above Nov 6.",whyJa:"IR/SRでは市場全体の反発と企業固有の決算・株主需給を分離。大量保有報告の直近確認分は11月10日で、11月11日分の個別提出は未検証。",whyEn:"For IR/SR, distinguish market recovery from earnings and ownership changes. Latest individually reviewed holdings filings remain Nov 10; Nov 11 filings unverified.",sourceJa:"一次情報｜日経平均プロフィル（11/11終値）",sourceEn:"Primary | Nikkei Indexes (Nov 11 close)",publisher:"Nikkei Indexes",time:"11/11 close",url:"https://indexes.nikkei.co.jp/nkave/archives/data/"},
@@ -39,6 +46,8 @@ brief:[
 {priority:"A",titleJa:"TOPIXも5.90%下落、全面安",titleEn:"TOPIX also falls 5.90% in broad selloff",summaryJa:"TOPIXは3,707.99、前日比-232.40ポイント（-5.90%）。大型ハイテク株に限らない幅広い下落となった。",summaryEn:"TOPIX finished at 3,707.99, down 232.40 (-5.90%), indicating broad market weakness beyond large-cap tech.",whyJa:"株主構成分析では海外投資家の売却、パッシブ資金、個別企業の需給を分けて確認したい。",whyEn:"In ownership analysis, distinguish foreign flows, passive rebalancing and issuer-specific selling.",sourceJa:"二次情報｜読売新聞",sourceEn:"Secondary | Yomiuri",publisher:"Yomiuri",time:"11/06 15:41",url:"https://news.livedoor.com/article/detail/32749146/"}
 ],
 nikkei:[
+{titleJa:"11月13日 日経平均公式終値61,142.35円",titleEn:"Nov 13 official Nikkei close: 61,142.35",descJa:"前日比+322.99円（+0.53%）、上昇132銘柄・下落91銘柄。",descEn:"Up 322.99 (+0.53%), 132 advancers and 91 decliners.",metaJa:"一次情報｜11/13",metaEn:"Primary | Nov 13",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261113&idx=nk225"},
+
 {titleJa:"11月12日の日経平均：60,819.36円",titleEn:"Nov 12 Nikkei close: 60,819.36",descJa:"前日比-429.23円（-0.70%）。FTの日次ヒストリカルデータで確認。",descEn:"Down 429.23 (-0.70%) from Nov 11, per FT historical data.",metaJa:"二次情報｜11/12",metaEn:"Secondary | Nov 12",url:"https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK"},
 {titleJa:"11月11日 日経平均公式終値61,248.59円",titleEn:"Nov 11 official Nikkei close: 61,248.59",descJa:"前日比+789.01円（+1.31%）。11月9日58,775.50円、10日60,459.58円から続伸。",descEn:"Up 789.01 (+1.31%); follows Nov 9 at 58,775.50 and Nov 10 at 60,459.58.",metaJa:"一次情報｜11/11",metaEn:"Primary | Nov 11",url:"https://indexes.nikkei.co.jp/nkave/archives/data/"},
 {titleJa:"11月6日の日経平均：公式日次サマリー",titleEn:"Nov 6 Nikkei official daily summary",descJa:"終値57,434.77円、-5.96%。指数構成銘柄の騰落も確認できる。",descEn:"Official close 57,434.77, -5.96%, with constituent breadth.",metaJa:"一次情報｜11/06",metaEn:"Primary | Nov 6",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261106&idx=nk225"},
