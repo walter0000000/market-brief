@@ -1,6 +1,7 @@
 window.MARKET_DATA={
-updatedAt:"2026-11-14 08:20 JST (latest verified market close: Nov 13)",
+updatedAt:"2026-11-19 08:26 JST (latest verified market close: Nov 18; IR filings not independently refreshed)",
 calendar:[
+{time:"11/18",ja:"日経平均59,024.28円（+163.85円、+0.28%）。プライム市場は下落銘柄が多数",en:"Nikkei 59,024.28 (+163.85, +0.28%); most Prime stocks declined",metaJa:"二次情報｜株探 11月18日大引け。個別大量保有報告は未更新",metaEn:"Secondary | Kabutan Nov 18 close. Individual ownership filings not refreshed",url:"https://s.kabutan.jp/news/n202611180919/"},
 {time:"11/13",ja:"日経平均61,142.35円（+322.99円、+0.53%）",en:"Nikkei 61,142.35 (+322.99, +0.53%)",metaJa:"一次情報｜日経平均プロフィル 11月13日終値",metaEn:"Primary | Nikkei Indexes Nov 13 close",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261113&idx=nk225"},
 
 {time:"11/12",ja:"日経平均60,819.36円（-429.23円、-0.70%）",en:"Nikkei 60,819.36 (-429.23, -0.70%)",metaJa:"FT・Yahoo Financeヒストリカルデータ｜11月12日終値",metaEn:"FT / Yahoo Finance historical data | Nov 12 close",url:"https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK"},
@@ -13,6 +14,8 @@ calendar:[
 {time:"11/09",ja:"次営業日の決算・適時開示を確認",en:"Review next trading day's earnings and disclosures",metaJa:"JPX予定表・TDnetで随時確認",metaEn:"Check JPX schedule and TDnet",url:"https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"}
 ],
 focus:[
+{ja:"11/18：日経平均+0.28%でもプライム下落1,107銘柄。アドバンテストの指数押し上げ約256円に注意",en:"Nov 18: Nikkei +0.28%, but 1,107 Prime stocks declined; Advantest added about 256 index points"},
+{ja:"IR/SR：指数上昇を市場全体の強さと混同せず、企業別の需給・株主動向を確認。新規大量保有報告は未検証",en:"IR/SR: distinguish index gains from breadth and issuer-level ownership. New large-shareholding filings remain unverified"},
 {ja:"11/13：日経平均61,142.35円（+0.53%）。週末11/14は東証休場",en:"Nov 13: Nikkei 61,142.35 (+0.53%); TSE closed Saturday Nov 14"},
 {ja:"IR/SR：指数寄与度はファストリ+156.15円、アドテスト+134.84円。個社要因と指数上昇を分離",en:"IR/SR: Fast Retailing contributed +156.15 index points and Advantest +134.84; separate stock-specific from index moves"},
 
@@ -29,6 +32,7 @@ focus:[
 {ja:"IR/SR：株価急落時の株主構成・対話方針・資本政策を再点検",en:"IR/SR: reassess shareholder base, engagement and capital policy"}
 ],
 brief:[
+{priority:"S",titleJa:"11月18日の日経平均59,024.28円、反発も市場の広がりは弱い",titleEn:"Nikkei rebounds to 59,024.28 on Nov 18, but breadth remains weak",summaryJa:"株探の11月18日大引け集計では日経平均は前日比163.85円高（+0.28%）。東証プライムは値上がり399、値下がり1,107、変わらず39。アドバンテスト単独の指数寄与は+255.66円。",summaryEn:"Kabutan reports the Nov 18 Nikkei close at 59,024.28 (+163.85, +0.28%). TSE Prime had 399 advancers, 1,107 decliners and 39 unchanged. Advantest contributed +255.66 index points.",whyJa:"指数の上昇と多くの個別株の下落が併存。IR/SRでは指数要因と個社要因を分けて説明する。11月18日分の大量保有・TOB原本は未照合。",whyEn:"The index rose despite broad stock declines. Separate benchmark drivers from issuer-specific factors in IR/SR. Nov 18 ownership and tender-offer filings have not been individually verified.",sourceJa:"二次情報｜株探 11月18日大引け",sourceEn:"Secondary | Kabutan Nov 18 close",publisher:"Kabutan",time:"11/18 close",url:"https://s.kabutan.jp/news/n202611180919/"},
 {priority:"S",titleJa:"11月13日の日経平均、61,142.35円（+0.53%）",titleEn:"Nikkei closes Nov 13 at 61,142.35 (+0.53%)",summaryJa:"日経平均プロフィル公式日次サマリーによると、11月13日終値は61,142.35円、前日比322.99円高（+0.53%）。225銘柄中132銘柄が上昇、91銘柄が下落、2銘柄が変わらず。",summaryEn:"Official Nikkei data show a Nov 13 close of 61,142.35, up 322.99 (+0.53%); 132 constituents advanced, 91 declined and two were unchanged.",whyJa:"IR/SRでは指数の反発と個別企業の決算・資本政策・株主構成変化を切り分ける。11月14日は土曜日で東証休場。",whyEn:"For IR/SR, distinguish benchmark gains from issuer-specific earnings, capital policy and ownership changes. TSE is closed Saturday Nov 14.",sourceJa:"一次情報｜日経平均プロフィル",sourceEn:"Primary | Nikkei Indexes",publisher:"Nikkei Indexes",time:"11/13 close",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261113&idx=nk225"},
 
 {priority:"S",titleJa:"11月12日の日経平均は60,819.36円（-0.70%）",titleEn:"Nikkei closes Nov 12 at 60,819.36 (-0.70%)",summaryJa:"11月12日の終値は60,819.36円、前日比429.23円安（-0.70%）。11月11日の61,248.59円から反落。Financial TimesおよびYahoo Financeのヒストリカルデータで照合。",summaryEn:"The Nikkei closed Nov 12 at 60,819.36, down 429.23 (-0.70%) from Nov 11. Cross-checked against FT and Yahoo Finance historical data.",whyJa:"IR/SRでは指数の反落と個別決算・株主構成変化を切り分ける。11月13日朝時点で当日の終値は未確定。",whyEn:"IR/SR should distinguish index weakness from company-specific earnings and shareholder developments. Nov 13 close is not yet available.",sourceJa:"二次情報｜Financial Times / Yahoo Finance",sourceEn:"Secondary | Financial Times / Yahoo Finance",publisher:"Financial Times",time:"11/12 close",url:"https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK"},
