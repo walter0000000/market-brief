@@ -1,5 +1,5 @@
 window.MARKET_DATA={
-updatedAt:"2026-11-21 08:39 JST (latest verified market close: Nov 20; new IR/ownership filings not independently verified)",
+updatedAt:"2026-11-25 08:42 JST (futures and ownership secondary sources; Nov 24 cash close and original filings unverified)",
 calendar:[
 {time:"11/20",ja:"日経平均56,436.65円（-3,007.56円、-5.06%）。225銘柄中214銘柄が下落",en:"Nikkei 56,436.65 (-3,007.56, -5.06%); 214 of 225 constituents declined",metaJa:"一次情報｜日経平均プロフィル 11月20日終値。新規大量保有報告は未検証",metaEn:"Primary | Nikkei Indexes Nov 20 close; new ownership filings unverified",url:"https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=20261120&idx=nk225"},
 
@@ -16,6 +16,9 @@ calendar:[
 {time:"11/09",ja:"次営業日の決算・適時開示を確認",en:"Review next trading day's earnings and disclosures",metaJa:"JPX予定表・TDnetで随時確認",metaEn:"Check JPX schedule and TDnet",url:"https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"}
 ],
 focus:[
+{"ja":"11/25朝：シカゴ日経先物57,405円、大阪終値比1,575円安（現物終値ではない）","en":"Nov 25 morning: Chicago Nikkei futures 57,405, down 1,575 vs Osaka close (not cash close)"},
+{"ja":"11/20：Oasisのデータセクション保有16.18%（二次集計、原本未照合）","en":"Nov 20: Oasis DataSection stake 16.18% (secondary compilation; original unverified)"},
+
 {ja:"11/20：日経平均-5.06%、225銘柄中214銘柄が下落。市場全体に広がる下落に注意",en:"Nov 20: Nikkei -5.06%, with 214 of 225 constituents declining; broad-based selling"},
 {ja:"IR/SR：急落局面では株主構成、資本政策、投資家対話の優先順位を再確認。新規大量保有報告は未検証",en:"IR/SR: revisit shareholder base, capital allocation and investor engagement during the selloff; new ownership filings unverified"},
 
@@ -37,6 +40,10 @@ focus:[
 {ja:"IR/SR：株価急落時の株主構成・対話方針・資本政策を再点検",en:"IR/SR: reassess shareholder base, engagement and capital policy"}
 ],
 brief:[
+{"priority":"S","titleJa":"11月25日朝：シカゴ日経先物57,405円","titleEn":"Nov 25 morning: Chicago Nikkei futures at 57,405","summaryJa":"株探7:44配信によると円建て先物は大阪取引所終値比1,575円安。現物終値ではない。","summaryEn":"Kabutan at 07:44 reports yen-denominated futures 1,575 points below the Osaka close; this is not the cash index close.","whyJa":"寄り付きの需給と個社材料を区別する。11月24日現物終値は未照合。","whyEn":"Distinguish opening flows from issuer-specific news. Nov 24 cash close not verified.","sourceJa":"二次情報｜株探","sourceEn":"Secondary | Kabutan","publisher":"Kabutan","time":"11/25 07:44","url":"https://s.kabutan.jp/news/n202611250135/"},
+{"priority":"S","titleJa":"Oasis、データセクション16.18%へ","titleEn":"Oasis raises DataSection stake to 16.18%","summaryJa":"11月20日提出分のEDINETベースの二次集計では6.42ポイント増、提案ありと分類。原本未照合。","summaryEn":"An EDINET-based secondary compilation of Nov 20 filings reports a 6.42pp increase and flags proposal intent; original filing not checked.","whyJa":"保有目的・重要提案行為・共同保有を原本で確認し、対話方針を検討。","whyEn":"Verify purpose, material proposals and joint holders before assessing engagement.","sourceJa":"二次情報｜follow the money","sourceEn":"Secondary | follow the money","publisher":"follow the money","time":"11/20","url":"https://www.follow-money.com/d/2026-11-20"},
+{"priority":"A","titleJa":"大成建設、ニッピ保有比率6.65%へ低下","titleEn":"Taisei reduces Nippi stake to 6.65%","summaryJa":"11月24日提出分の二次集計2サイトで7.66%から6.65%への低下を確認。原本未照合。","summaryEn":"Two secondary compilations of Nov 24 filings show a decline from 7.66% to 6.65%; original filing not checked.","whyJa":"政策保有かどうかは原本で確認し、売却理由を断定しない。","whyEn":"Verify holding purpose in the original filing; do not assume the reason for disposal.","sourceJa":"二次情報｜follow the money・俺の株主優待","sourceEn":"Secondary | follow the money and yutai.blog","publisher":"follow the money","time":"11/24","url":"https://www.follow-money.com/d/2026-11-24"},
+
 {priority:"S",titleJa:"11月20日の日経平均、3,007.56円安の56,436.65円",titleEn:"Nikkei plunges 3,007.56 to 56,436.65 on Nov 20",summaryJa:"日経平均プロフィル公式日次サマリーによると11月20日終値は56,436.65円、前日比-3,007.56円（-5.06%）。構成225銘柄中214銘柄が下落、11銘柄が上昇。",summaryEn:"Official Nikkei Indexes data show a Nov 20 close of 56,436.65, down 3,007.56 (-5.06%); 214 of 225 constituents declined and 11 advanced.",whyJa:"広範な下落局面。IR/SRでは市場要因と個社固有要因を分け、株主構成・資本政策・投資家対話を再点検。11月20日の個別大量保有・TOB原本は未照合。",whyEn:"Broad market selling: distinguish benchmark drivers from issuer-specific factors and reassess shareholder base, capital allocation and investor engagement. Nov 20 ownership and tender-offer filings remain unverified.",sourceJa:"一次情報｜日経平均プロフィル 11月20日終値",sourceEn:"Primary | Nikkei Indexes Nov 20 close",publisher:"Nikkei Indexes",time:"11/20 close",url:"https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=20261120&idx=nk225"},
 
 {priority:"S",titleJa:"11月18日の日経平均59,024.28円、反発も市場の広がりは弱い",titleEn:"Nikkei rebounds to 59,024.28 on Nov 18, but breadth remains weak",summaryJa:"株探の11月18日大引け集計では日経平均は前日比163.85円高（+0.28%）。東証プライムは値上がり399、値下がり1,107、変わらず39。アドバンテスト単独の指数寄与は+255.66円。",summaryEn:"Kabutan reports the Nov 18 Nikkei close at 59,024.28 (+163.85, +0.28%). TSE Prime had 399 advancers, 1,107 decliners and 39 unchanged. Advantest contributed +255.66 index points.",whyJa:"指数の上昇と多くの個別株の下落が併存。IR/SRでは指数要因と個社要因を分けて説明する。11月18日分の大量保有・TOB原本は未照合。",whyEn:"The index rose despite broad stock declines. Separate benchmark drivers from issuer-specific factors in IR/SR. Nov 18 ownership and tender-offer filings have not been individually verified.",sourceJa:"二次情報｜株探 11月18日大引け",sourceEn:"Secondary | Kabutan Nov 18 close",publisher:"Kabutan",time:"11/18 close",url:"https://s.kabutan.jp/news/n202611180919/"},
