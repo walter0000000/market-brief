@@ -1,6 +1,7 @@
 window.MARKET_DATA={
-updatedAt:"2026-11-25 08:42 JST (futures and ownership secondary sources; Nov 24 cash close and original filings unverified)",
+updatedAt:"2026-11-26 08:53 JST (Nov 25 cash close, secondary source; new ownership filings unverified)",
 calendar:[
+{"time":"11/25","ja":"11月25日の日経平均57,011.62円、指数と市場の騰落に乖離","en":"Nov 25 Nikkei closes at 57,011.62 despite positive market breadth","metaJa":"二次情報｜株探 11月25日15:32","metaEn":"Secondary | Kabutan Nov 25 15:32","url":"https://minkabu.jp/news/4671790"},
 {time:"11/20",ja:"日経平均56,436.65円（-3,007.56円、-5.06%）。225銘柄中214銘柄が下落",en:"Nikkei 56,436.65 (-3,007.56, -5.06%); 214 of 225 constituents declined",metaJa:"一次情報｜日経平均プロフィル 11月20日終値。新規大量保有報告は未検証",metaEn:"Primary | Nikkei Indexes Nov 20 close; new ownership filings unverified",url:"https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=20261120&idx=nk225"},
 
 {time:"11/18",ja:"日経平均59,024.28円（+163.85円、+0.28%）。プライム市場は下落銘柄が多数",en:"Nikkei 59,024.28 (+163.85, +0.28%); most Prime stocks declined",metaJa:"二次情報｜株探 11月18日大引け。個別大量保有報告は未更新",metaEn:"Secondary | Kabutan Nov 18 close. Individual ownership filings not refreshed",url:"https://s.kabutan.jp/news/n202611180919/"},
@@ -16,6 +17,7 @@ calendar:[
 {time:"11/09",ja:"次営業日の決算・適時開示を確認",en:"Review next trading day's earnings and disclosures",metaJa:"JPX予定表・TDnetで随時確認",metaEn:"Check JPX schedule and TDnet",url:"https://www.jpx.co.jp/listing/event-schedules/financial-announcement/"}
 ],
 focus:[
+{"ja":"11/25：日経平均-2.78%でもプライム991銘柄上昇。指数と個社要因を区別","en":"Nov 25: Nikkei -2.78% despite 991 Prime advancers; separate index and issuer drivers"},
 {"ja":"11/25朝：シカゴ日経先物57,405円、大阪終値比1,575円安（現物終値ではない）","en":"Nov 25 morning: Chicago Nikkei futures 57,405, down 1,575 vs Osaka close (not cash close)"},
 {"ja":"11/20：Oasisのデータセクション保有16.18%（二次集計、原本未照合）","en":"Nov 20: Oasis DataSection stake 16.18% (secondary compilation; original unverified)"},
 
@@ -40,6 +42,7 @@ focus:[
 {ja:"IR/SR：株価急落時の株主構成・対話方針・資本政策を再点検",en:"IR/SR: reassess shareholder base, engagement and capital policy"}
 ],
 brief:[
+{"priority":"S","titleJa":"11月25日の日経平均57,011.62円、指数と市場の騰落に乖離","titleEn":"Nov 25 Nikkei closes at 57,011.62 despite positive market breadth","summaryJa":"前日比1,633.01円安（-2.78%）。東証プライムでは991銘柄上昇、533銘柄下落。アドバンテスト、東京エレクトロン、ソフトバンクGの指数押し下げが大きかった。","summaryEn":"Down 1,633.01 (-2.78%); Prime market advancers numbered 991 versus 533 decliners. Advantest, Tokyo Electron and SoftBank Group were major index drags.","whyJa":"指数下落と個社の株価・需給を分けて分析する。11月25日の大量保有報告原本は未照合。","whyEn":"Separate benchmark weakness from issuer-specific price and flow drivers. Nov 25 ownership filings not verified.","sourceJa":"二次情報｜株探 11月25日15:32","sourceEn":"Secondary | Kabutan Nov 25 15:32","publisher":"Kabutan","time":"11/25 close","url":"https://minkabu.jp/news/4671790"},
 {"priority":"S","titleJa":"11月25日朝：シカゴ日経先物57,405円","titleEn":"Nov 25 morning: Chicago Nikkei futures at 57,405","summaryJa":"株探7:44配信によると円建て先物は大阪取引所終値比1,575円安。現物終値ではない。","summaryEn":"Kabutan at 07:44 reports yen-denominated futures 1,575 points below the Osaka close; this is not the cash index close.","whyJa":"寄り付きの需給と個社材料を区別する。11月24日現物終値は未照合。","whyEn":"Distinguish opening flows from issuer-specific news. Nov 24 cash close not verified.","sourceJa":"二次情報｜株探","sourceEn":"Secondary | Kabutan","publisher":"Kabutan","time":"11/25 07:44","url":"https://s.kabutan.jp/news/n202611250135/"},
 {"priority":"S","titleJa":"Oasis、データセクション16.18%へ","titleEn":"Oasis raises DataSection stake to 16.18%","summaryJa":"11月20日提出分のEDINETベースの二次集計では6.42ポイント増、提案ありと分類。原本未照合。","summaryEn":"An EDINET-based secondary compilation of Nov 20 filings reports a 6.42pp increase and flags proposal intent; original filing not checked.","whyJa":"保有目的・重要提案行為・共同保有を原本で確認し、対話方針を検討。","whyEn":"Verify purpose, material proposals and joint holders before assessing engagement.","sourceJa":"二次情報｜follow the money","sourceEn":"Secondary | follow the money","publisher":"follow the money","time":"11/20","url":"https://www.follow-money.com/d/2026-11-20"},
 {"priority":"A","titleJa":"大成建設、ニッピ保有比率6.65%へ低下","titleEn":"Taisei reduces Nippi stake to 6.65%","summaryJa":"11月24日提出分の二次集計2サイトで7.66%から6.65%への低下を確認。原本未照合。","summaryEn":"Two secondary compilations of Nov 24 filings show a decline from 7.66% to 6.65%; original filing not checked.","whyJa":"政策保有かどうかは原本で確認し、売却理由を断定しない。","whyEn":"Verify holding purpose in the original filing; do not assume the reason for disposal.","sourceJa":"二次情報｜follow the money・俺の株主優待","sourceEn":"Secondary | follow the money and yutai.blog","publisher":"follow the money","time":"11/24","url":"https://www.follow-money.com/d/2026-11-24"},
@@ -64,6 +67,7 @@ brief:[
 {priority:"A",titleJa:"TOPIXも5.90%下落、全面安",titleEn:"TOPIX also falls 5.90% in broad selloff",summaryJa:"TOPIXは3,707.99、前日比-232.40ポイント（-5.90%）。大型ハイテク株に限らない幅広い下落となった。",summaryEn:"TOPIX finished at 3,707.99, down 232.40 (-5.90%), indicating broad market weakness beyond large-cap tech.",whyJa:"株主構成分析では海外投資家の売却、パッシブ資金、個別企業の需給を分けて確認したい。",whyEn:"In ownership analysis, distinguish foreign flows, passive rebalancing and issuer-specific selling.",sourceJa:"二次情報｜読売新聞",sourceEn:"Secondary | Yomiuri",publisher:"Yomiuri",time:"11/06 15:41",url:"https://news.livedoor.com/article/detail/32749146/"}
 ],
 nikkei:[
+{"titleJa":"11月25日の日経平均57,011.62円、指数と市場の騰落に乖離","titleEn":"Nov 25 Nikkei closes at 57,011.62 despite positive market breadth","descJa":"前日比1,633.01円安（-2.78%）。東証プライムでは991銘柄上昇、533銘柄下落。アドバンテスト、東京エレクトロン、ソフトバンクGの指数押し下げが大きかった。","descEn":"Down 1,633.01 (-2.78%); Prime market advancers numbered 991 versus 533 decliners. Advantest, Tokyo Electron and SoftBank Group were major index drags.","metaJa":"二次情報｜株探 11月25日15:32","metaEn":"Secondary | Kabutan Nov 25 15:32","url":"https://minkabu.jp/news/4671790"},
 {titleJa:"11月13日 日経平均公式終値61,142.35円",titleEn:"Nov 13 official Nikkei close: 61,142.35",descJa:"前日比+322.99円（+0.53%）、上昇132銘柄・下落91銘柄。",descEn:"Up 322.99 (+0.53%), 132 advancers and 91 decliners.",metaJa:"一次情報｜11/13",metaEn:"Primary | Nov 13",url:"https://indexes.nikkei.co.jp/nkave/archives/summary?dt=20261113&idx=nk225"},
 
 {titleJa:"11月12日の日経平均：60,819.36円",titleEn:"Nov 12 Nikkei close: 60,819.36",descJa:"前日比-429.23円（-0.70%）。FTの日次ヒストリカルデータで確認。",descEn:"Down 429.23 (-0.70%) from Nov 11, per FT historical data.",metaJa:"二次情報｜11/12",metaEn:"Secondary | Nov 12",url:"https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK"},
